@@ -1,0 +1,1991 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+
+
+body {
+    min-height: 100vh;
+
+    background: #05080d;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: auto;
+}
+
+
+
+.logo {
+    position: fixed;
+
+    top: 30px;
+    left: 30px;
+
+    color: #9acd32;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    z-index: 10;
+}
+
+
+/* =================================
+   NAVBAR
+================================= */
+
+.menu {
+    position: fixed;
+
+    left: 30px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+    z-index: 10;
+}
+
+
+
+
+.menu a {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 70px;
+
+    text-decoration: none !important;
+
+    color: #9acd32 !important;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+
+
+
+.menu a b {
+    color: #9acd32 !important;
+
+    font-size: 12px;
+
+    font-weight: normal;
+
+    text-decoration: underline;
+
+    margin-bottom: 2px;
+}
+
+
+
+
+.menu a span {
+    color: #777 !important;
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    text-decoration: underline;
+}
+
+
+
+
+.menu a:hover {
+    color: #c8ff45 !important;
+}
+
+.menu a:hover b {
+    color: #c8ff45 !important;
+}
+
+.menu a:hover span {
+    color: #aaa !important;
+}
+
+
+/* =================================
+   HERO
+================================= */
+
+.hero {
+    min-height: 100vh;
+	
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    /*
+       INI YANG MEMBERI JARAK
+       ANTARA NAVBAR DAN RICKI
+    */
+    padding-left: 240px;
+
+    padding-right: 60px;
+}
+
+
+/* =================================
+   SUBTITLE
+================================= */
+
+.subtitle {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+    color: #9acd32;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    letter-spacing: 5px;
+}
+
+
+
+.dot {
+    width: 7px;
+
+    height: 7px;
+
+    background: #9acd32;
+
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+
+/* =================================
+   NAMA BESAR
+================================= */
+
+.hero h1 {
+    color: #f1f1f1;
+
+    font-size: clamp(80px, 14vw, 190px);
+
+    font-weight: 900;
+	
+    line-height: 0.82;
+
+    letter-spacing: -8px;
+
+    margin-bottom: 48px;
+}
+
+
+/* =================================
+   DESKRIPSI
+================================= */
+
+.description {
+    max-width: 570px;
+
+    color: #777;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+
+.awar {
+	font-size: 35px;
+	
+	font-weight: 900;
+    margin-top: 50px;
+	
+	line-height: 1.5;
+	height: 80px;
+	margin-left: 180px;
+	
+}
+
+.awar b {
+	padding: 20px;
+	
+	font-size: 15px;
+	
+	font-weight: 500;
+	
+	color: #9acd32;
+	
+}
+
+.tentang {
+	max-width: 570px;
+
+    color: #777;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+	
+	margin-left: 200px;
+
+    margin-bottom: 35px;
+}
+
+
+.garis {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -250px;
+}
+
+.pinggir {
+
+    max-width: 570px;
+
+    color: white;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+	
+	margin-left: 130px;
+
+    margin-bottom: 35px;
+}
+
+.tempat {
+
+    font-family: monospace;
+	
+	margin-bottom: 50px;
+	
+	font-size: 17px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+.tempat span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 847px;
+	
+	margin-top: -250px;
+	
+}
+
+.garis1 {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -30px;
+}
+
+.tempat1 {
+	
+	margin-bottom: 50px;
+	
+	font-size: 15px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+
+.tempat1 span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 850px;
+	
+	
+}
+
+.garis2 {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -30px;
+}
+
+.tempat2 {
+	
+	margin-bottom: 50px;
+	
+	font-size: 15px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+
+.tempat2 span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 850px;
+	
+	
+}
+
+.garis3 {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -30px;
+}
+
+.tempat3 {
+	
+	margin-bottom: 50px;
+	
+	font-size: 15px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+
+.tempat3 span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 850px;
+	
+	
+}
+
+
+/* =================================
+   GARIS
+================================= */
+
+.line {
+    margin-top: 50px;
+     border-bottom: 1px solid  #303030;
+    
+    margin-left: 200px;
+    
+    width: 1100px;
+   
+    
+
+    
+}
+
+.lino {
+    margin-top: 50px;
+     border-bottom: 1px solid  #303030;
+    
+   
+    
+    width: 1050px;
+   
+    
+
+    
+}
+
+
+/* =================================
+   TAHUN
+================================= */
+
+.year {
+    position: fixed;
+
+    left: 30px;
+
+    bottom: 20px;
+
+    color: #777;
+
+    font-family: monospace;
+
+    font-size: 10px;
+}
+
+
+/* =========================
+   SECTION KERJAAN
+========================= */
+
+.pekerjaan {
+    width: 95%;
+    max-width: 1200px;
+    /* margin: 80px auto; */
+    color: white;
+}
+
+.pekerjaan h2 {
+    font-size: 55px;
+    margin-bottom: 45px;
+}
+
+
+/* =========================
+   PROJECT
+========================= */
+
+.project {
+    border-bottom: 1px solid #303030;
+     
+    margin-left: 180px;
+    height: 200px ;
+    width: 1100px ;
+    
+    
+}
+
+
+/* =========================
+   HEADER PROJECT
+========================= */
+
+.project-header {
+    display: grid;
+    grid-template-columns: 45px 1fr 90px;
+
+    align-items: start;
+    margin-left: 22px;
+    padding: 28px 0;
+
+    cursor: pointer;
+}
+
+
+/*====================
+  bikin tag turun 
+ =====================*/
+.tags {
+    grid-column: 2;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/*======================================
+  biar judul dan isi tersusun ke bawa 
+ ======================================*/
+.project-title {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.project-judul{
+    font-size: 15px;
+    color: white;
+}
+
+
+/* =========================
+   NOMOR
+========================= */
+
+.project-number {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    padding-top: 8px;
+
+}
+
+
+/* =========================
+   JUDUL
+========================= */
+
+.project-title h3 {
+    margin: 0;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.project-header:hover h3 {
+    opacity: 0.7;
+}
+
+
+/* =========================
+   TAHUN
+========================= */
+
+.project-year {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* =========================
+   TOMBOL PLUS
+========================= */
+
+.plus {
+    border: none;
+    background: transparent;
+
+    color: white;
+
+    font-size: 15px;
+    line-height: 1;
+    
+    cursor: pointer;
+
+    width: 25px;
+    height: 25px;
+
+    transition: 0.3s;
+}
+
+.project-header:hover .plus {
+    transform: scale(1.2);
+    
+}
+
+
+/* =========================
+   DETAIL
+========================= */
+
+.project-detail {
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height 0.5s ease,
+        opacity 0.4s ease,
+        margin-top 0.4s ease;
+}
+
+
+/* =========================
+   SAAT DIBUKA
+========================= */
+
+.project-header.active .project-detail {
+    max-height: 300px;
+
+    opacity: 1;
+
+    margin-top: 22px;
+}
+
+
+/* =========================
+   DESKRIPSI
+========================= */
+
+.project-detail p {
+    max-width: 600px;
+
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: #777;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   TAG
+========================= */
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.tags span {
+    border: 1px solid rgba(255,255,255,0.5);
+
+    padding: 7px 12px;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    color: white;
+}
+
+
+/*========================
+ ,mengubah warna tulisan 
+ ========================*/
+h3{
+    display: block;
+    color: #9acd32;
+    font-size: 23px;
+}
+
+
+/*==========================
+  tulisan di dalam kotak 
+ ==========================*/
+.stack {
+    border: 2px solid #303030;
+    height: 100px;
+    width: 350px;
+    margin-left: 200px;
+    
+
+}
+
+
+/*============================
+ tulisan dalam kotak ketengah 
+ ============================*/
+.text {
+    margin-left: 12px;
+    color: #777;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.box {
+    margin-left: 570px;
+    border: 2px solid #303030;
+    height: 100px;
+    width: 350px;
+    margin-top: -100px;
+    font-size: 15px;
+}
+
+.datatools{
+    margin-left: 940px;
+
+    border: 2px solid #303030;
+
+    height: 100px;
+
+    width: 350px;
+
+    font-size: 15px;
+
+    margin-top: -100px;
+}
+
+.link {
+    color: white;
+    margin-left: 200px;
+    font-size: 15px;
+    border-bottom: 1px solid  #f1f1f1;
+    font-family: monospace;
+}
+ 
+.tolka {
+    color: white;
+    margin-left: 200px;
+    font-size: 15px;
+     border-bottom: 1px solid  #f1f1f1;
+     margin-top: -500px !important;
+     font-family: monospace;
+}
+
+
+/* =========================
+   FORM KONTAK
+========================= */
+
+.form-kontak {
+    width: 100%;
+    max-width: 600px;
+
+    margin-left: 650px;
+    margin-top: -170px;
+}
+
+
+/* =========================
+   FORM GROUP
+========================= */
+
+.form-group {
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+
+/* =========================
+   PESAN
+========================= */
+
+.pesan {
+    margin-top: 0;
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 18px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    color: #777;
+}
+
+
+/* =========================
+   INPUT EMAIL
+========================= */
+
+.form-group input {
+    width: 100%;
+    height: 55px;
+
+    padding: 10px 0;
+
+    background: transparent;
+
+    border: none;
+    border-bottom: 1px solid #292929;
+
+    outline: none;
+
+    color: white;
+
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+
+/* =========================
+   TEXTAREA PESAN
+========================= */
+
+.form-group textarea {
+    width: 100%;
+    height: 130px;
+
+    padding: 10px 0;
+
+    background: transparent;
+
+    border: none;
+    border-bottom: 1px solid #292929;
+
+    outline: none;
+
+    color: white;
+
+    font-size: 17px;
+
+    resize: vertical;
+
+    transition: 0.3s;
+}
+
+
+/* =========================
+   FOCUS INPUT
+========================== */
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom: 1px solid #eaff00;
+}
+
+
+/* =========================
+   TOMBOL KIRIM PESAN
+========================= */
+
+.form-kontak button {
+    display: block;
+
+    width: 130px;
+    max-width: 200px;
+    height: 57px;
+  
+
+    /* Naik dan geser ke kiri */
+    margin-top: -57px;
+    margin-left: 0;
+    margin-right: auto;
+
+    border-radius: 12px;
+    border: none;
+
+    background: #eaff00;
+    color: #111;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+
+    position: relative;
+    z-index: 2;
+}
+
+.garis17 {
+	width: 100%;
+
+    max-width: 1050px;
+
+    height: 1px;
+
+    background: white;
+
+    margin-top: -0px !important ;
+	
+	margin-left: 200px;
+
+    border-bottom: 1px solid #303030;
+}
+
+.form-kontak button:hover {
+    background: #d5e900;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   HOVER TOMBOL
+========================= */
+
+.form-kontak button:hover {
+    background: #d5e900;
+
+    transform: translateY(-2px);
+}
+
+.ke-atas{
+    margin-left: 1200px;
+
+    color: #777;
+
+    font-size: 15px;
+}
+
+.garis18 {
+	width: 2px;
+
+    height: 100vh;
+
+    background: #303030;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 100px;
+	
+	
+}
+
+.k1text{
+    font-family: monospace;
+
+    color: #777;
+
+    margin-left: 200px;
+
+    font-size: 13px;
+    
+    margin-top: -10px;
+
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .kontak {
+        padding: 60px 30px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .form-kontak {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .form-kontak button {
+        width: 190px;
+        height: 60px;
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    .pekerjaan h2 {
+        font-size: 40px;
+    }
+
+    .project-header {
+        grid-template-columns: 35px 1fr 70px;
+    }
+
+    .project-title h3 {
+        font-size: 21px;
+    }
+
+    .project-detail p {
+        font-size: 14px;
+    }
+
+    .project-year {
+        font-size: 10px;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE FINAL - DESKTOP, TABLET, DAN HP
+   Bagian ini diletakkan paling bawah agar menimpa
+   ukuran/margin fixed dari CSS sebelumnya.
+========================================================= */
+
+/* Tablet */
+@media screen and (max-width: 1100px) {
+
+    .hero {
+        padding-left: 170px;
+        padding-right: 40px;
+    }
+
+    .hero h1 {
+        font-size: clamp(70px, 12vw, 150px);
+    }
+
+    .awar {
+        margin-left: 130px;
+    }
+
+    .tentang {
+        margin-left: 150px;
+        max-width: 500px;
+    }
+
+    .garis,
+    .garis1,
+    .garis2,
+    .garis3 {
+        margin-left: 55%;
+        max-width: 40%;
+    }
+
+    .tempat span,
+    .tempat1 span,
+    .tempat2 span,
+    .tempat3 span {
+        margin-left: 55%;
+    }
+
+    .pinggir {
+        margin-left: 60px;
+    }
+
+    .line {
+        margin-left: 150px;
+        width: calc(100% - 190px);
+    }
+
+    .project {
+        margin-left: 150px;
+        width: calc(100% - 190px);
+    }
+
+    .stack {
+        margin-left: 150px;
+    }
+
+    .box {
+        margin-left: 530px;
+    }
+
+    .datatools {
+        margin-left: 850px;
+    }
+
+    .form-kontak {
+        margin-left: 50%;
+        width: 45%;
+    }
+
+    .link,
+    .tolka {
+        margin-left: 150px;
+    }
+
+    .garis17 {
+        margin-left: 150px;
+        width: calc(100% - 190px);
+    }
+
+    .ke-atas {
+        margin-left: auto;
+        margin-right: 40px;
+        display: block;
+        width: fit-content;
+    }
+}
+
+
+/* Tablet kecil */
+@media screen and (max-width: 900px) {
+
+    .logo {
+        top: 20px;
+        left: 20px;
+    }
+
+    .menu {
+        left: 20px;
+        gap: 18px;
+    }
+
+    .menu a {
+        width: 60px;
+    }
+
+    .hero {
+        padding-left: 130px;
+        padding-right: 30px;
+    }
+
+    .hero h1 {
+        font-size: clamp(60px, 13vw, 120px);
+        letter-spacing: -5px;
+    }
+
+    .description {
+        max-width: 500px;
+    }
+
+    .awar {
+        margin-left: 100px;
+        font-size: 30px;
+    }
+
+    .tentang {
+        margin-left: 100px;
+        max-width: calc(100% - 140px);
+    }
+
+    .garis,
+    .garis1,
+    .garis2,
+    .garis3 {
+        margin-left: 45%;
+        max-width: 45%;
+    }
+
+    .tempat span,
+    .tempat1 span,
+    .tempat2 span,
+    .tempat3 span {
+        margin-left: 45%;
+        padding: 20px;
+    }
+
+    .pinggir {
+        margin-left: 30px;
+    }
+
+    .line {
+        margin-left: 100px;
+        width: calc(100% - 130px);
+    }
+
+    .project {
+        margin-left: 100px;
+        width: calc(100% - 130px);
+        height: auto;
+        min-height: 170px;
+    }
+
+    .project-header {
+        grid-template-columns: 35px minmax(0, 1fr) 70px;
+        margin-left: 10px;
+    }
+
+    .project-title h3 {
+        font-size: 23px;
+    }
+
+    .tags {
+        margin-bottom: 30px;
+    }
+
+    .stack,
+    .box,
+    .datatools {
+        width: calc(100% - 130px);
+        margin-left: 100px;
+        margin-top: 15px;
+        height: auto;
+        min-height: 100px;
+    }
+
+    .box,
+    .datatools {
+        margin-top: 15px;
+    }
+
+    .link,
+    .tolka {
+        margin-left: 100px;
+    }
+
+    .form-kontak {
+        margin-left: 100px;
+        width: calc(100% - 130px);
+        max-width: none;
+        margin-top: 40px;
+    }
+
+    .garis17 {
+        margin-left: 100px;
+        width: calc(100% - 130px);
+    }
+
+    .ke-atas {
+        margin-right: 30px;
+    }
+
+    .garis18 {
+        left: 70px;
+    }
+}
+
+
+/* =========================================================
+   HP
+========================================================= */
+@media screen and (max-width: 600px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        width: 100%;
+        min-width: 0;
+        overflow-x: hidden;
+    }
+
+    /* LOGO */
+    .logo {
+        position: absolute;
+        top: 18px;
+        left: 18px;
+        font-size: 20px;
+        z-index: 20;
+    }
+
+    /* NAVBAR */
+    .menu {
+        position: absolute;
+        top: 65px;
+        left: 15px;
+        right: 15px;
+        transform: none;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        z-index: 20;
+    }
+
+    .menu a {
+        width: 100%;
+        min-width: 0;
+        align-items: center;
+        text-align: center;
+        padding: 7px 2px;
+        font-size: 10px;
+    }
+
+    .menu a b {
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+
+    .menu a span {
+        font-size: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    /* HERO */
+    .hero {
+        min-height: auto;
+        padding: 180px 22px 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .subtitle {
+        gap: 8px;
+        margin-bottom: 18px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        flex-wrap: wrap;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+    }
+
+    .hero h1 {
+        font-size: clamp(55px, 20vw, 100px);
+        line-height: 0.85;
+        letter-spacing: -4px;
+        margin-bottom: 30px;
+    }
+
+    .description {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .lino {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .year {
+        position: absolute;
+        left: auto;
+        right: 20px;
+        bottom: auto;
+        top: 18px;
+        font-size: 9px;
+    }
+
+    /* SECTION TITLE */
+    .awar {
+        margin-left: 0;
+        margin-top: 35px;
+        height: auto;
+        font-size: 27px;
+        line-height: 1.3;
+        padding: 0 20px;
+    }
+
+    .awar b {
+        padding: 0 10px 0 0;
+        font-size: 12px;
+    }
+
+    /* TENTANG */
+    .tentang {
+        max-width: none;
+        margin-left: 0;
+        padding: 0 20px;
+        font-size: 12px;
+        line-height: 1.8;
+        margin-bottom: 25px;
+    }
+
+    .garis,
+    .garis1,
+    .garis2,
+    .garis3 {
+        width: calc(100% - 40px);
+        max-width: none;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .tempat,
+    .tempat1,
+    .tempat2,
+    .tempat3 {
+        /* display: flex;
+        flex-direction: column; */
+        gap: 8px;
+        margin: 18px 20px 25px;
+        font-size: 13px;
+    }
+
+    .tempat span,
+    .tempat1 span,
+    .tempat2 span,
+    .tempat3 span {
+        margin-left: 0;
+        padding: 0;
+        font-size: 11px;
+    }
+
+    .pinggir {
+        margin-left: 0;
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    /* GARIS SECTION */
+    .line {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+
+    /* PROJECT */
+    .project {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        min-height: 0;
+        height: auto;
+    }
+
+    .project-header {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 0;
+        grid-template-columns: 25px minmax(0, 1fr) 50px;
+        gap: 8px;
+        align-items: start;
+    }
+
+    .project-number {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+
+    .project-title {
+        min-width: 0;
+    }
+
+    .project-title h3,
+    .project-judul {
+        font-size: 18px;
+        line-height: 1.3;
+        word-break: normal;
+        overflow-wrap: anywhere;
+    }
+
+    .project-detail p {
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 1.7;
+    }
+
+    .project-header.active .project-detail {
+        margin-top: 14px;
+    }
+
+    .tags {
+        grid-column: 2;
+        margin: 10px 0 5px;
+        gap: 5px;
+    }
+
+    .tags span {
+        padding: 5px 8px;
+        font-size: 8px;
+    }
+
+    .project-year {
+        font-size: 9px;
+        gap: 3px;
+    }
+
+    .plus {
+        width: 22px;
+        height: 22px;
+        font-size: 16px;
+    }
+
+    /* STACK */
+    .stack,
+    .box,
+    .datatools {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-top: 12px;
+        height: auto;
+        min-height: 95px;
+        font-size: 12px;
+    }
+
+    .text {
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    /* KONTAK */
+    .link,
+    .tolka {
+        display: inline-block;
+        margin-left: 20px;
+        max-width: calc(100% - 40px);
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+
+    .form-kontak {
+        width: calc(100% - 40px);
+        max-width: none;
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+
+    .form-group {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .form-group label {
+        margin-bottom: 10px;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .form-group input {
+        width: 100%;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .form-group textarea {
+        width: 100%;
+        height: 120px;
+        min-height: 120px;
+        font-size: 14px;
+    }
+
+    /* Hapus jarak <br> besar secara visual */
+    .form-kontak > br {
+        display: none;
+    }
+
+    /* TOMBOL KIRIM */
+    .form-kontak button {
+        width: 130px;
+        max-width: 100%;
+        height: 48px;
+        margin: 10px 0 0;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    /* GARIS BAWAH */
+    .garis17 {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-top: 30px !important;
+    }
+
+    .ke-atas {
+        display: block;
+        width: fit-content;
+        margin: 0 20px 0 auto;
+        font-size: 12px;
+    }
+
+    .garis18 {
+        display: none;
+    }
+   
+    .k1text{
+    font-family: monospace;
+
+    color: #777;
+
+    margin-left: 200px;
+
+    font-size: 13px;
+    
+    margin-top: -10px;
+
+   }
+
+    /* JARAK AKHIR */
+    section {
+        width: 100%;
+    }
+}
+
+
+/* HP SANGAT KECIL */
+@media screen and (max-width: 380px) {
+
+    .menu {
+        left: 10px;
+        right: 10px;
+    }
+
+    .menu a span {
+        font-size: 7px;
+    }
+
+    .hero {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .hero h1 {
+        font-size: 58px;
+    }
+
+    .awar {
+        font-size: 24px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .tentang {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .project,
+    .stack,
+    .box,
+    .datatools,
+    .form-kontak {
+        width: calc(100% - 36px);
+        margin-left: 18px;
+    }
+
+    .link,
+    .tolka {
+        margin-left: 18px;
+        max-width: calc(100% - 36px);
+    }
+
+    .line,
+    .garis,
+    .garis1,
+    .garis2,
+    .garis3,
+    .garis17 {
+        width: calc(100% - 36px);
+        margin-left: 18px;
+    }
+}
+
+
+/* =========================================================
+   NAVBAR HP - MODEL HAMBURGER
+   Tampilan mengikuti referensi: logo kiri, hamburger kanan.
+========================================================= */
+
+.menu-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Header HP */
+    .logo {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        font-size: 21px;
+        z-index: 100;
+    }
+
+    /* Tombol hamburger */
+    .menu-toggle {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        top: 24px;
+        right: 25px;
+
+        width: 42px;
+        height: 42px;
+
+        padding: 0;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        z-index: 101;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 27px;
+        height: 3px;
+        background: #777;
+        border-radius: 2px;
+        transition: 0.3s ease;
+    }
+
+    .menu-toggle:hover span {
+        background: #9acd32;
+    }
+
+    /* Animasi hamburger menjadi X */
+    .menu-toggle[aria-expanded="true"] span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* Menu disembunyikan saat HP */
+    .menu {
+        position: absolute;
+        top: 75px;
+        left: 18px;
+        right: 18px;
+
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+        padding: 8px;
+        border: 1px solid #303030;
+        background: #05080d;
+        border-radius: 8px;
+
+        transform: translateY(-10px);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+        transition: opacity 0.25s ease, transform 0.25s ease,
+                    visibility 0.25s ease;
+
+        z-index: 99;
+    }
+
+    /* Saat hamburger diklik */
+    .menu.show {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .menu a {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 13px 12px;
+        border-bottom: 1px solid #202020;
+
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .menu a:last-child {
+        border-bottom: none;
+    }
+
+    .menu a b {
+        margin: 0;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .menu a span {
+        margin-left: auto;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+    }
+
+    /* Supaya hero tidak tertutup navbar */
+    .hero {
+        padding-top: 125px;
+    }
+}
+
+/* HP sangat kecil */
+@media screen and (max-width: 380px) {
+
+    .logo {
+        top: 22px;
+        left: 20px;
+    }
+
+    .menu-toggle {
+        top: 21px;
+        right: 20px;
+    }
+
+    .menu {
+        left: 15px;
+        right: 15px;
+    }
+}
+
+
+/* =========================================================
+   FIX NAVBAR HP
+   Logo dan tombol hamburger tetap menempel di atas
+   walaupun halaman berpindah ke Tentang/Kerjaan/Stack/Kontak.
+========================================================= */
+@media screen and (max-width: 600px) {
+
+    .logo {
+        position: fixed !important;
+        top: 18px;
+        left: 20px;
+        z-index: 10001;
+        display: block;
+    }
+
+    .menu-toggle {
+        position: fixed;
+        top: 12px;
+        right: 18px;
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        border: 0;
+        border-radius: 8px;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        z-index: 10002;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: #9acd32;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    /* Menu HP dibuka di bawah header */
+    .menu {
+        position: fixed !important;
+        font-size: 10px;
+        top: 70px;
+        left: 15px;
+        right: 15px;
+        transform: translateY(-15px);
+        width: auto;
+        padding: 12px;
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        background: rgba(5, 8, 13, 0.97);
+        border: 1px solid #303030;
+        border-radius: 10px;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.25s ease, transform 0.25s ease,
+                    visibility 0.25s ease;
+        z-index: 10000;
+    }
+
+    .menu.show {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+
+    .menu a {
+        width: 100%;
+        padding: 12px 8px;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* Tombol berubah dari ☰ menjadi X */
+    .menu-toggle[aria-expanded="true"] span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Supaya judul section tidak tertutup header fixed saat diklik */
+    #tentang,
+    #kerjaan,
+    #stack,
+    #kontak {
+        scroll-margin-top: 85px;
+    }
+}
+
+
+/* HP sangat kecil */
+@media screen and (max-width: 380px) {
+
+    .logo {
+        left: 15px;
+        top: 18px;
+    }
+
+    .menu-toggle {
+        right: 10px;
+    }
+
+    .menu {
+        left: 10px;
+        right: 10px;
+    }
+}
